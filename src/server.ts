@@ -1,5 +1,5 @@
 import express from 'express'
-import { UserControlller } from '@controllers/UserControllers'
+
 const app = express()
 
 app.get('/', (request, response) => {
